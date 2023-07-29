@@ -11,8 +11,8 @@ const Header = () => {
                         <img
                             alt=""
                             src={LogoTrans}
-                            width="100"
-                            height="100"
+                            width="50"
+                            height="50"
                             className="d-inline-block align-top" />{' '}
                     </Navbar.Brand>
                     <Navbar.Toggle />

@@ -1,7 +1,4 @@
-
-.MyApp{
-  background-image: url('./img/yara-logos_black.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.rachaSpace{
+  height: 250px;
+  object-fit: cover;
 }

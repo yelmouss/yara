@@ -5,13 +5,15 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Typed from "react-typed";
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Header />
-        <div className="MyApp min-vh-100 bg-dark bg-opacity-75 text-center p-5 ">
+        <Home />
+        {/* <div className="MyApp min-vh-100 bg-dark bg-opacity-75 text-center p-5 ">
           <h1 className="text-warning fst-italic mt-5">
             {" "}
             <Typed
@@ -25,7 +27,7 @@ function App() {
               loop
             ></Typed>
           </h1>
-        </div>
+        </div> */}
         <Footer />
       </BrowserRouter>
     </>
